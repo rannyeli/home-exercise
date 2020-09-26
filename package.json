@@ -1,14 +1,18 @@
 {
   "name": "home-exercise",
   "version": "1.0.0",
-  "description": "",
+  "description": "nodejs service",
+  "author": "Ran Elishayev",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rannyeli/home-exercise.git"
+  },
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ran Elishayev",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
