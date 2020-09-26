@@ -1,0 +1,10 @@
+{
+  "port": 80,
+  "postgres": {
+    "user": "app",
+    "host": "ec2-3-120-27-127.eu-central-1.compute.amazonaws.com",
+    "database": "api",
+    "password": "password",
+    "port": 8080
+  }
+}
