@@ -3,6 +3,7 @@
 *Dockerfile*
 
 node_modules
+tests
 backend-exercise.pem
 
 *.md

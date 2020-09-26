@@ -1,8 +1,11 @@
-FROM node:12
+FROM node:12-alpine
 
-WORKDIR /app
+ENV NODE_ENV=production
+
+WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
+
 COPY . .
 
 EXPOSE 80
